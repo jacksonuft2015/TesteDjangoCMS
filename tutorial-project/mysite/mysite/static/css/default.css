@@ -1,0 +1,198 @@
+@charset "utf-8";
+
+/*------ Default HTML Styles ------*/
+* {
+margin:0;
+padding:0;
+}
+html {
+font-size:100%;
+height:100%;
+margin:0 0 1px 0;
+}
+body {
+font: 80%/1.6em Arial, Verdana, sans-serif;
+}
+h1, h2, h3, h4, h5, h6, p, blockquote, label, ul, ol, dl, fieldset, address, .contentheading, .componentheading, .contentdescription {
+margin:0.5em 0;
+}
+ul, ol {
+margin:0 0 0 2em;
+}
+fieldset {
+border:none;
+}
+legend {
+font-weight:bold;
+}
+img {
+border:none;
+}
+a {
+text-decoration:underline;
+}
+a:hover {
+text-decoration:none;
+}
+.contentheading, .componentheading, h1, h2, h3, h4, h5, h6 {
+font-weight:normal;
+font-family:Arial, Georgia, "Times New Roman", Times, serif;
+}
+h1, .componentheading {
+font-size:2em;
+line-height:1.4em;
+}
+h2, .contentheading {
+font-size:1.8em;
+}
+h3, .contentdescription {
+font-size:1.6em;
+}
+h4 {
+font-size:1.4em;
+}
+h5 {
+font-size:1.2em;
+}
+h6 {
+font-size:1em;
+}
+hr {
+border:0;
+}
+pre, .source {
+overflow:auto;
+padding:10px;
+margin:10px 0;
+}
+.small, .createdate, .modifydate {
+font-size:0.8em;
+}
+/*--- Typography ---*/
+blockquote {
+padding:10px 30px;
+font-style:italic;
+font-size:1.3em;
+font-family:Arial, Georgia, "Times New Roman", Times, serif;
+}
+pre, code {
+font-size:1em;
+padding:10px;
+font-family:Consolas, Monaco, "Courier New", Courier, monospace;
+}
+.alert, .info, .download, .note {
+display: block;
+padding: 10px 10px 10px 50px;
+margin: 15px 0;
+}
+ul.bullet1, ul.bullet2, ul.bullet3, ul.bullet4, ul.bullet5, ul.bullet6, ul.bullet7, ul.male, ul.female, ul.accept, ul.clock, ul.color, ul.cup, ul.date, ul.drink, ul.smile, ul.exclamation, ul.heart, ul.music, ul.rainbow, ul.golf, ul.tennis, ul.star, ul.tick {
+padding-left: 10px;
+margin-left: 0;
+}
+ul.bullet1 li, ul.bullet2 li, ul.bullet3 li, ul.bullet4 li, ul.bullet5 li, ul.bullet6 li, ul.bullet7 li, ul.male li, ul.female li, ul.accept li, ul.clock li, ul.color li, ul.cup li, ul.date li, ul.drink li, ul.smile li, ul.exclamation li, ul.heart li, ul.music li, ul.rainbow li, ul.golf li, ul.tennis li, ul.star li, ul.tick li {
+list-style: none;
+margin-left: 0;
+padding:3px 0 3px 40px;
+margin-bottom: 5px;
+}
+.info {
+color: #0055BB;
+border-top: 3px solid #629de3;
+border-bottom: 3px solid #629de3;
+background: #D8E5F8 url(../images/status-info.png) 10px 50% no-repeat;
+}
+.note {
+color: #B79000;
+border-top: 3px solid #fde179;
+border-bottom: 3px solid #fde179;
+background: #FEF6D8 url(../images/status-note.png) 10px 50% no-repeat;
+}
+.download {
+color: #57861A;
+border-top: 3px solid #c2df88;
+border-bottom: 3px solid #c2df88;
+background: #EEF7DD url(../images/status-download.png) 10px 50% no-repeat;
+}
+ul.bullet1 li {
+background: url(../images/bullet1.png) 4px 4px no-repeat;
+}
+ul.bullet2 li {
+background: url(../images/bullet2.png) 4px 4px no-repeat;
+}
+ul.bullet3 li {
+background: url(../images/bullet3.png) 4px 4px no-repeat;
+}
+ul.bullet4 li {
+background: url(../images/bullet4.png) 4px 4px no-repeat;
+}
+ul.bullet5 li {
+background: url(../images/bullet_green.png) 4px 4px no-repeat;
+}
+ul.bullet6 li {
+background: url(../images/bullet_pink.png) 4px 4px no-repeat;
+}
+ul.bullet7 li {
+background: url(../images/bullet_red.png) 4px 4px no-repeat;
+}
+ul.male li {
+background: url(../images/user_suit.png) 4px 4px no-repeat;
+}
+ul.female li {
+background: url(../images/user_female.png) 4px 4px no-repeat;
+}
+ul.accept li {
+background: url(../images/accept.png) 4px 4px no-repeat;
+}
+ul.clock li {
+background: url(../images/clock.png) 4px 4px no-repeat;
+}
+ul.color li {
+background: url(../images/color_swatch.png) 4px 4px no-repeat;
+}
+ul.cup li {
+background: url(../images/cup.png) 4px 4px no-repeat;
+}
+ul.date li {
+background: url(../images/date.png) 4px 4px no-repeat;
+}
+ul.drink li {
+background: url(../images/drink.png) 4px 4px no-repeat;
+}
+ul.smile li {
+background: url(../images/emoticon_smile.png) 4px 4px no-repeat;
+}
+ul.exclamation li {
+background: url(../images/exclamation.png) 4px 4px no-repeat;
+}
+ul.heart li {
+background: url(../images/heart.png) 4px 4px no-repeat;
+}
+ul.music li {
+background: url(../images/music.png) 4px 4px no-repeat;
+}
+ul.rainbow li {
+background: url(../images/rainbow.png) 4px 4px no-repeat;
+}
+ul.golf li {
+background: url(../images/sport_golf.png) 4px 4px no-repeat;
+}
+ul.tennis li {
+background: url(../images/sport_tennis.png) 4px 4px no-repeat;
+}
+ul.star li {
+background: url(../images/star.png) 4px 4px no-repeat;
+}
+ul.tick li {
+background: url(../images/tick.png) 4px 4px no-repeat;
+}
+fieldset.highlight{
+padding:10px;
+font-weight:normal;
+}
+fieldset.highlight legend{
+font-size:1.2em;
+}
+ul.accessibility {
+	position: absolute;
+	top: -100%;
+}

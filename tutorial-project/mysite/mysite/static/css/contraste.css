@@ -1,0 +1,307 @@
+@charset "utf-8";
+
+/*--- Default HTML Styles ---*/
+body{
+background:#000;
+color:#fff;
+}
+a{
+color:#fff50b !important;
+text-decoration: none;
+}
+a:hover{
+color:#fff50b !important;
+text-decoration: underline;
+}
+h1, h3, h4, h5, h6, .componentheading, .contentheading{
+color:#fff !important;
+}
+h2, .contentheading{
+color:#50e7ee !important;
+}
+.small, .createdate, .modifydate {
+color:#777777;
+}
+/*------ Layout Styles ------*/
+
+/*--- Header ---*/
+#header{
+background:#000 !important;
+color:#FFFFFF;
+}
+#header a{
+color:#fff50b !important;
+}
+/*--- Topmenu ---*/
+#topmenu{
+background:#000 !important;
+color:#FFFFFF;
+}
+#topmenu a:hover{
+background-color: #4e5672 !important;
+background-image: none;
+background-repeat: repeat;
+background-attachment: scroll;
+background-position: 0% 0%;
+color: #fff50b;
+}
+/*--- Search ---*/
+#search{
+background:#000 !important;
+}
+#search .inputbox {
+color:#fff !important;
+}
+#search .button{
+color:#FFFFFF !important;
+border:1px solid #fff50b !important;
+background:#000 !important;
+/*--- background:#2D80D8 url(../images/gradient.png) repeat-x 0 0; ---*/
+}
+.search {
+background:#000 !important;
+border:1px solid #fff50b !important;
+}
+/*--- Mainmenu ---*/
+#mainmenu{
+background:#000 !important;
+color:#fff50b !important;
+height:62px;
+}
+#mainmenu .inside{
+background:#000;
+}
+#mainmenu ul ul{
+background:#000;
+}
+#mainmenu ul ul li {
+}
+#mainmenu ul ul li:hover {
+background-color: #4e5672;
+background-image: none;
+background-repeat: repeat;
+background-attachment: scroll;
+background-position: 0% 0%;
+color: #fff50b !important;
+}
+#mainmenu a{
+color:#fff50b !important;
+}
+#mainmenu a:hover, #mainmenu li.active a{
+background-color: #4e5672 !important;
+background-image: none;
+background-repeat: repeat;
+background-attachment: scroll;
+background-position: 0% 0%;
+color: #fff50b !important;
+}
+/*--- Container ---*/
+#container{
+background-color: #000 !important;
+background:none !important;
+border-top:20px solid #000 !important;
+}
+#container .width{
+border-bottom:1px dotted #CCCCCC;
+}
+#container-inner{
+background-color: #000;
+background:none;
+}
+#banner, #pathway{
+background:#000;
+}
+#content{
+background-color: #000;
+background:none;
+}
+#sidebar, #sidebar2{
+background:url(../images/theme2/sidebars.png) repeat-x 0 0;
+}
+/*--- Elements ---*/
+.elements{
+}
+/*------ Component Styles ------*/
+.article_separator{
+border-bottom:1px dotted #EEEEEE;
+}
+/*--- Input Boxes and Buttons ---*/
+.inputbox, .validate-email{
+background:#FFFFFF url(../images/gradient.png) repeat-x 0 0;
+border:1px solid #CCCCCC;
+}
+.button, .validate, .adminform button, button, .btn{
+color:#FFFFFF;
+border:1px solid #183061 !important;
+background:#000;
+}
+.readon, .readmore{
+background:url(../images/theme2/readmore.png) no-repeat 0 0;
+color:#FFFFFF;
+}
+/*--- Blog Styles ---*/
+.blog_more{
+background:#FFFFFF url(../images/gradient.png) repeat-x 0 0;
+border:1px solid #EEEEEE;
+}
+.pagination span{
+background:#FFFFFF url(../images/gradient.png) repeat-x 0 0;
+border:1px solid #EEEEEE;
+color:#999999;
+}
+.pagination a{
+background:#FFFFFF url(../images/gradient.png) repeat-x 0 0;
+border:1px solid #EEEEEE;
+}
+/*--- Section Table ---*/
+.contentpane li{
+border-bottom:1px dotted #EEEEEE;
+}
+/*--- Category Table ---*/
+td.sectiontableheader{
+background:#CCCCCC url(../images/gradient.png) repeat-x 0 0;
+border-top:1px solid #999999;
+}
+td.sectiontableheader a{
+color:#000000;
+}
+tr.sectiontableentry1 td{
+border-bottom:1px dotted #EEEEEE;
+}
+tr.sectiontableentry2 td{
+border-bottom:1px dotted #EEEEEE;
+}
+/*--- Table of Contents ---*/
+.contenttoc{
+border:1px solid #B7B1B3;
+}
+.contenttoc td a{
+border-bottom:1px dotted #EEEEEE;
+}
+.contenttoc td a:hover{
+background-color: #4e5672;
+background-image: none;
+background-repeat: repeat;
+background-attachment: scroll;
+background-position: 0% 0%;
+color: #fff50b;
+}
+/*--- Search Component ---*/
+.searchintro{
+background:#EFE7E0 url(../images/gradient.png) repeat-x 0 0;
+border:1px solid #EEEEEE;
+color:#676060;
+}
+.searchintro b{
+color:#FF0000;
+}
+.highlight{
+color:#FF0000;
+background:#FFFF00;
+}
+.contentpaneopen fieldset{
+margin:10px 0;
+border-bottom:1px dotted #EEEEEE;
+}
+/*--- User Components ---*/
+#com-form-login a{
+border-bottom:1px dotted #EEEEEE;
+}
+#com-form-login a:hover{
+background-color: #4e5672;
+background-image: none;
+background-repeat: repeat;
+background-attachment: scroll;
+background-position: 0% 0%;
+color: #fff50b;
+}
+.adminform{
+border:1px solid #EEEEEE;
+}
+/*------ Module Styles ------*/
+.moduletable-ms1{
+background:#FFFFFF url(../images/gradient.png) repeat-x 0 0;
+border:1px solid #EEEEEE;
+}
+.moduletable-ms2{
+background:#F8F8F8 url(../images/gradient.png) repeat-x 0 0;
+border:1px solid #EEEEEE;
+}
+.moduletable-ms3{
+background:#EEEEEE url(../images/gradient.png) repeat-x 0 0;
+border:1px solid #EEEEEE;
+}
+.moduletable-ms4{
+background:#CCCCCC url(../images/gradient.png) repeat-x 0 0;
+border:1px solid #EEEEEE;
+}
+.moduletable h3, 
+.moduletable_menu h3, 
+.moduletable_text h3, 
+.moduletable-ms1 h3, 
+.moduletable-ms2 h3, 
+.moduletable-ms3 h3, 
+.moduletable-ms4 h3{
+border-bottom:1px dotted #CCCCCC;
+}
+.moduletable li a, 
+.moduletable_menu li a, 
+.moduletable_text li a,
+.moduletable-ms1 li a,
+.moduletable-ms2 li a,
+.moduletable-ms3 li a,
+.moduletable-ms4 li a{
+background:url(../images/theme2/bullet1.png) no-repeat 100% 50%;
+border-bottom:1px dotted #EEEEEE;
+}
+.moduletable li a:hover,
+.moduletable_menu li a:hover,
+.moduletable_text li a:hover,
+.moduletable-ms1 li a:hover,
+.moduletable-ms2 li a:hover,
+.moduletable-ms3 li a:hover,
+.moduletable-ms4 li a:hover{
+background:url(../images/theme2/bullet1.png) no-repeat 100% 50%;
+border-bottom:1px dotted #EEEEEE;
+text-decoration: underline;
+}
+/*--- Typography ---*/
+blockquote{
+background:#EFE7E0 url(../images/gradient.png) repeat-x 0 0;
+border:1px solid #E2DBD5;
+color:#5E5253;
+}
+.alert {
+color: #c00;
+border-top: 3px solid #fe7b7a;
+border-bottom: 3px solid #fe7b7a;
+background: #FFD6D6 url(../images/status-alert.png) 10px 50% no-repeat;
+}
+.info {
+color: #0055BB;
+border-top: 3px solid #629de3;
+border-bottom: 3px solid #629de3;
+background: #D8E5F8 url(../images/status-info.png) 10px 50% no-repeat;
+}
+.note {
+color: #B79000;
+border-top: 3px solid #fde179;
+border-bottom: 3px solid #fde179;
+background: #FEF6D8 url(../images/status-note.png) 10px 50% no-repeat;
+}
+.download {
+color: #57861A;
+border-top: 3px solid #c2df88;
+border-bottom: 3px solid #c2df88;
+background: #EEF7DD url(../images/status-download.png) 10px 50% no-repeat;
+}
+fieldset.highlight{
+background:#EFE7E0 url(../images/gradient.png) repeat-x 0 0;
+border:1px solid #E2DBD5;
+color:#5E5253;
+}
+pre, .source{
+background:#EFE7E0 url(../images/gradient.png) repeat-x 0 0;
+border:1px solid #E2DBD5;
+color:#5E5253;
+}

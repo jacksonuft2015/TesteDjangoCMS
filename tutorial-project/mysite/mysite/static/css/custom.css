@@ -1,0 +1,16 @@
+#header{background:#162952}
+a{color:#162952}
+a:hover{color:#000000}
+h1, h2, h3, h4, h5, h6, .componentheading, .contentheading{color:#162952}
+#topmenu{background:#183061}
+#header a{color:#95C2EF}
+#topmenu a:hover{color:#FFFFFF}
+#search{background:#183061}
+#search .button{border:1px #183061; background:#162952}
+.search{border:1px solid #183061}
+#container{border-top:20px solid #162952}
+.button, .validate, .adminform button, button, .btn{
+color:#FFFFFF;
+border:1px solid #183061;
+background:#183061;
+}
