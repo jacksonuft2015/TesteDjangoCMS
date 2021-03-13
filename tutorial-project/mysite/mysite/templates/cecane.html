@@ -1,8 +1,8 @@
+{% load cms_tags menu_tags sekizai_tags cms_static %}
+{% load static %}
 
-{% load cms_tags menu_tags sekizai_tags %}
-{% load staticfiles %}
 
-<!DOCTYPE >
+<!DOCTYPE html>
 
 <html lang="pt-br">
 <head>
@@ -12,7 +12,7 @@
 	<meta name="generator" content="Joomla! - Open Source Content Management">
 	<title>CECANE/UFT</title>
 	
-	<link href="{% static 'scripts/djimageslider.css' %}" rel="stylesheet" type="text/css">
+	<link href="{% static 'scripts/djimageslider.css' % }" rel="stylesheet" type="text/css">
 	<script src="{% static 'scripts/jquery.min.js.download' %}" type="text/javascript"></script>
 	<script src="{% static 'scripts/jquery-noconflict.js.download' %}" type="text/javascript"></script>
 	<script src="{% static 'scripts/jquery-migrate.min.js.download' %}" type="text/javascript"></script>
@@ -1701,15 +1701,13 @@ div[vw] {
 	    <div class="container">
         <div id="barra-brasil"><div id="wrapper-barra-brasil"><div class="brasil-flag"><a href="https://gov.br/" class="link-barra">Brasil</a></div><nav><ul id="lista-barra-brasil" class="list"><li><a href="https://www2.ufrb.edu.br/cecane/#" id="menu-icon"></a></li><li class="list-item first"><a href="http://www.saude.gov.br/coronavirus" style="color:red;">CORONAVÍRUS (COVID-19)</a></li><li class="list-item"><a href="http://www.simplifique.gov.br/" class="link-barra">Simplifique!</a></li><li class="list-item"><a href="https://www.gov.br/pt-br/participacao-social/" class="link-barra">Participe</a></li><li class="list-item"><a href="http://www.acessoainformacao.gov.br/" class="link-barra">Acesso à informação</a></li><li class="list-item"><a href="http://www.planalto.gov.br/legislacao" class="link-barra">Legislação</a></li><li class="list-item last last-item"><a href="https://gov.br/pt-br/canais-do-executivo-federal" class="link-barra">Canais</a></li></ul></nav><span id="brasil-vlibras"><a class="logo-vlibras" id="logovlibras" href="https://www2.ufrb.edu.br/cecane/#"></a><span class="link-vlibras"><img src="./Centro Colaborador em Alimentação e Nutrição Escolar - CECANE_UFRB_files/vlibras.gif" class="barralazy" data-src="//barra.brasil.gov.br/imagens/vlibras.gif" width="132" height="116">&nbsp;<br>O conteúdo desse portal pode ser acessível em Libras usando o <a href="http://www.vlibras.gov.br/">VLibras</a></span></span></div></div>
 		<ul class="accessibility">
-			<li><a href="" accesskey="M" title="Atalho para o menu">Atalho: Menu Principal</a></li>
-			<li><a href="" accesskey="P" title="Atalho para o pesquisar">Atalho: Pesquisar</a></li>
-			<li><a href="" accesskey="C" title="Atalho para o conteúdo">Atalho: Conteúdo</a></li>
+			 {% show_menu 0 100 100 100 %}
 		</ul>
 		<div id="header">
 			<div class="width">   
 				<div class="inside"> 	
 					<div id="header-left">
-						<a title="CECANE/UFT"><img src="./imagem/logo.png" id="logo" alt="Centro Colaborador em Alimentação e Nutrição Escolar - CECANE/UFT"></a>
+						<a title="CECANE/UFT"><img src="{% static 'imagem/logo.png' %}" id="logo" alt="Centro Colaborador em Alimentação e Nutrição Escolar - CECANE/UFT"></a>
 						<div class="clr"></div>
 					</div>
 					<div id="header-right">
@@ -1749,7 +1747,7 @@ div[vw] {
 												<div id="slider-container121" class="slider-container">
 														<ul id="slider121" class="djslider-in" style="position: relative; width: 680px;">
 															<li style="height: 252.571px; width: 680px; margin: 0px !important; position: absolute; top: 0px; left: 0px; opacity: 1; visibility: visible; transition: opacity 400ms cubic-bezier(0.445, 0.05, 0.55, 0.95) 0s;">
-																			<img class="dj-image" src="./imagem/home_page.jpg" alt="Informe importante!" style="width: auto; height: 100%;">
+																			<img class="dj-image" src="{% static 'imagem/home_page.jpg' %}" alt="Informe importante!" style="width: auto; height: 100%;">
 																				<!-- Slide description area: START -->
 																			<div class="slide-desc" style="bottom: 0%; left: 0%; width: 100%;">
 																			  <div class="slide-desc-in">
@@ -1766,7 +1764,7 @@ div[vw] {
 									
 															</li>
 															<li style="height: 252.571px; width: 680px; margin: 0px !important; position: absolute; top: 0px; left: 0px; opacity: 0; visibility: hidden; transition: opacity 400ms cubic-bezier(0.445, 0.05, 0.55, 0.95) 0s;">
-																			<img class="dj-image" src="./imagem/ARTES--Capa.jpg" alt="CECANE - UFT" style="width: auto; height: 100%;">
+																			<img class="dj-image" src="{% static 'imagem/ARTES--Capa.jpg'%}" alt="CECANE - UFT" style="width: auto; height: 100%;">
 																			<!-- Slide description area: START -->
 																			<div class="slide-desc" style="bottom: 0%; left: 0%; width: 100%;">
 																			  <div class="slide-desc-in">
@@ -1785,8 +1783,8 @@ div[vw] {
 														</ul>
 												</div>
 												<div id="navigation121" class="navigation-container" style="top: 11.538461538462%; margin: 0 0.71428571428571%;">
-													<img id="prev121" class="prev-button showOnHover" src="./imagem/prev.png" alt="Previous" tabindex="0">
-													<img id="next121" class="next-button showOnHover" src="./imagem/next.png" alt="Next" tabindex="0">
+													<img id="prev121" class="prev-button showOnHover" src="{% static 'imagem/prev.png'%}" alt="Previous" tabindex="0">
+													<img id="next121" class="next-button showOnHover" src="{% static 'imagem/next.png'%}" alt="Next" tabindex="0">
 												</div>
 												<div id="cust-navigation121" class="navigation-container-custom ">
 														<span class="load-button load-button-active" tabindex="0"></span>
